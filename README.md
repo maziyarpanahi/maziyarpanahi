@@ -1,16 +1,36 @@
-### Hi there 👋
 
-<!--
-**maziyarpanahi/maziyarpanahi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3>Open source projects</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🎁 Projects</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>📬 Pull requests</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/JohnSnowLabs/spark-nlp"><b>Spark NLP: State of the Art Natural Language Processing</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/JohnSnowLabs/spark-nlp?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/JohnSnowLabs/spark-nlp?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/JohnSnowLabs/spark-nlp?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JohnSnowLabs/spark-nlp-workshop"><b>Spark NLP Workshop</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/JohnSnowLabs/spark-nlp-workshop?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/JohnSnowLabs/spark-nlp-workshop?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/JohnSnowLabs/spark-nlp-workshop?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/optonaut/ActiveLabel.swift"><b>ActiveLabel.swift: UILabel drop-in replacement</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/optonaut/ActiveLabel.swift?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/optonaut/ActiveLabel.swift?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/optonaut/ActiveLabel.swift?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+	  
+  </tbody>
+</table>
 
-Here are some ideas to get you started:
+[![Marks's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide=stars,contribs)](https://github.com/maziyarpanahi)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
