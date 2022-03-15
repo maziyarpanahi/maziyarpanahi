@@ -32,5 +32,13 @@
   </tbody>
 </table>
 
-[![Marks's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide=stars,contribs)](https://github.com/maziyarpanahi)
+#### Stats
+
+[![Maziyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&theme=cobalt&show_icons=true&hide=stars,contribs)](https://github.com/maziyarpanahi)
+
+![Maziyar's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maziyarpanahi&count_private=true&theme=cobalt&hide_title=true&layout=compact&langs_count=20)
+
+#### Visitors (since 15 March 2022)
+
+![Counter](https://count.getloli.com/get/@maziyarpanahi?theme=asoul)
 
