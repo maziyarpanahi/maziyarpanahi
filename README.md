@@ -34,7 +34,7 @@
 
 #### Stats
 
-[![Maziyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&theme=monokai&show_icons=true&hide=stars,contribs)](https://github.com/maziyarpanahi)
+[![Maziyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&theme=monokai&show_icons=true&hide=contribs)](https://github.com/maziyarpanahi)
 
 ![Maziyar's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maziyarpanahi&count_private=true&theme=monokai&hide_title=true&layout=compact&langs_count=20)
 
