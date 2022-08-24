@@ -34,10 +34,9 @@
 
 #### Stats
 
-[![Maziyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&theme=monokai&show_icons=true&hide=contribs)](https://github.com/maziyarpanahi)
+[![Maziyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&theme=monokai&show_icons=true)](https://github.com/maziyarpanahi)
 
-<!-- [![Maziyar's top languages](http://github-readme-stats-maziyarpanahi.vercel.app/api/top-langs/?username=maziyarpanahi&count_private=true&theme=monokai&hide_title=true&layout=compact&langs_count=30&hide=css,html,scss,php,less,javascript,python,ruby,shell,sass,coffeescript,typescript,ejs,vue)](https://github.com/maziyarpanahi)
- -->
+
 <!-- #### Visitors (since 15 March 2022)
 
 ![Counter](https://count.getloli.com/get/@maziyarpanahi?theme=asoul)
