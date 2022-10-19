@@ -2,7 +2,7 @@ Hi! 👋 I am a Principal AI / ML engineer and a Lead Big Data project manager w
 
 I lead the team behind Spark NLP at John Snow Labs, one of the most widely used NLP libraries in the enterprise. I am also a lecturer at The National School of Geographical Sciences teaching Big Data Platforms and Data Analytics. I am currently employed by The French National Centre for Scientific Research (CNRS) as IT Project Manager and working at the Institute of Complex Systems of Paris (ISCPIF)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shailesh5300 )
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maziyarpanahi/)
 
 <h3>Open source projects</h3>
 <table>
