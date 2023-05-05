@@ -39,7 +39,7 @@ I lead the team behind Spark NLP at John Snow Labs, one of the most widely used 
 
 ### 🏆GitHub
 
-[![Maziyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&theme=monokai&show_icons=true)](https://github.com/maziyarpanahi)
+[![Maziyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=false&theme=monokai&show_icons=true)](https://github.com/maziyarpanahi)
 
 ![](https://github-profile-trophy.vercel.app/?username=maziyarpanahi&theme=monokai&no-frame=false&no-bg=false&margin-w=4)
 
