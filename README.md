@@ -6,7 +6,7 @@ I lead the team behind [Spark NLP](http://sparknlp.org) at John Snow Labs, one o
 
 🌐 <a href="https://www.linkedin.com/in/maziyarpanahi">Follow me on LinkedIn</a>
 🐦 <a href="https://twitter.com/MaziyarPanahi">Follow me on X</a>
-🤗 <a href="https://huggingface.co/mlabonne">Follow me on Hugging Face</a>
+🤗 <a href="https://huggingface.co/MaziyarPanahi">Follow me on Hugging Face</a>
 
 <h3>Open source projects</h3>
 <table>
