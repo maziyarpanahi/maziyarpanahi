@@ -4,9 +4,10 @@ I lead the team behind [Spark NLP](http://sparknlp.org) at John Snow Labs, one o
 
 ### What my latest Webinar: [From GPT-4 to Llama-2: Supercharging State-of-the-Art Embeddings for Vector Databases with Spark NLP](https://www.johnsnowlabs.com/watch-from-gpt-4-to-llama-2-supercharging-state-of-the-art-embeddings-for-vector-databases-with-spark-nlp/)
 
-🌐 <a href="https://www.linkedin.com/in/maziyarpanahi">Follow me on LinkedIn</a>
-🐦 <a href="https://twitter.com/MaziyarPanahi">Follow me on X</a>
-🤗 <a href="https://huggingface.co/MaziyarPanahi">Follow me on Hugging Face</a>
+Follow me on: 
+🌐 <a href="https://www.linkedin.com/in/maziyarpanahi">LinkedIn</a>
+🐦 <a href="https://twitter.com/MaziyarPanahi">X</a>
+🤗 <a href="https://huggingface.co/MaziyarPanahi">Hugging Face</a>
 
 <h3>Open source projects</h3>
 <table>
