@@ -2,8 +2,6 @@ Hi! 👋 I am a Principal AI / ML engineer and a Lead Big Data project manager w
 
 I used to lead the team behind [Spark NLP](http://sparknlp.org), one of the most widely used NLP libraries in the enterprise, and building a private Chatbots by using LLMs like Llama-3, Mixtral, and GPT-4 models. I am also a lecturer at The National School of Geographical Sciences teaching Big Data Platforms and Data Analytics. I am currently employed by The French National Centre for Scientific Research (CNRS) as Infrastructure Project Manager and working at the Institute of Complex Systems of Paris (ISCPIF).
 
-### What my latest Webinar: [From GPT-4 to Llama-2: Supercharging State-of-the-Art Embeddings for Vector Databases with Spark NLP](https://www.johnsnowlabs.com/watch-from-gpt-4-to-llama-2-supercharging-state-of-the-art-embeddings-for-vector-databases-with-spark-nlp/)
-
 **Follow me on:**
 - 🌐 <a href="https://www.linkedin.com/in/maziyarpanahi">LinkedIn</a>
 - 🐦 <a href="https://twitter.com/MaziyarPanahi">X (Tiwtter)</a>
