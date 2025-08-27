@@ -1,11 +1,17 @@
-Hi! 👋 I am a Principal AI / ML engineer and a Lead Big Data project manager with over 14 years-long experience in public research. I develop scalable NLP components using the latest techniques in deep learning and machine learning that includes classic ML, Language Models, Speech Recognition, and Computer Vision. He is an expert in designing, deploying, and maintaining ML and DL models in the JVM ecosystem and distributed computing engine (Apache Spark) at the production level.
+Hi! 👋 I am a proven leader in Healthcare AI, I build and scale enterprise-grade intelligence platforms for the most demanding healthcare and life sciences organizations. My focus is on leading the entire vertical, from pioneering research to full-scale production. With a foundation of over 14 years in public research at France's CNRS, I have a deep understanding of the science. I translated this into commercial success by leading the team behind John Snow Labs' Spark NLP—the most widely used NLP library in the enterprise, which now powers the majority of medical AI models on major cloud platforms like AWS SageMaker and Bedrock.
 
-I used to lead the team behind [Spark NLP](http://sparknlp.org), one of the most widely used NLP libraries in the enterprise, and building a private Chatbots by using LLMs like Llama-3, Mixtral, and GPT-4 models. I am also a lecturer at The National School of Geographical Sciences teaching Big Data Platforms and Data Analytics. I am currently employed by The French National Centre for Scientific Research (CNRS) as Infrastructure Project Manager and working at the Institute of Complex Systems of Paris (ISCPIF).
+My work is guided by one core principle: the future of medical AI must be open, auditable, and sovereign. This isn't just a philosophy; it's the go-to-market strategy that wins in regulated environments. This conviction led me to found OpenMed, an initiative to create and share transparent, state-of-the-art medical language models. I believe that for AI to be truly trusted in clinical settings, it cannot be a black box and must be deployable within a hospital's own secure walls.
+
+My leadership is built on a full-stack technical foundation. I have hands-on expertise in the entire AI lifecycle, from training domain-specific LLMs (100M to 200B+ parameters) to architecting the national-scale, on-premise infrastructure they require. This includes managing billion-row databases on everything from bare-metal servers to hardened Kubernetes clusters, work I continue as an Infrastructure Project Manager at the Institute of Complex Systems of Paris (ISCPIF).
+
+My mission is to leverage Europe's leading AI to build the default engine for every hospital, pharma giant, and public health agency that requires a secure and powerful medical intelligence platform. I specialize in turning cutting-edge scientific research into robust, compliant, and commercially successful enterprise solutions.
+
 
 **Follow me on:**
 - 🌐 <a href="https://www.linkedin.com/in/maziyarpanahi">LinkedIn</a>
 - 🐦 <a href="https://twitter.com/MaziyarPanahi">X (Tiwtter)</a>
 - 🤗 <a href="https://huggingface.co/MaziyarPanahi">Hugging Face</a>
+- 🤗 <a href="https://huggingface.co/openmed">OpenMed</a>
 
 ### 🇫🇷Rank in France:
  [![committers.top badge](https://user-badge.committers.top/france_private/maziyarpanahi.svg)](https://user-badge.committers.top/france_private/maziyarpanahi)
