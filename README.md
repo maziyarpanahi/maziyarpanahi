@@ -17,8 +17,3 @@ I am building OpenMed! My mission is to leverage Europe's leading AI to build th
 [![Maziyar's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&theme=monokai&show_icons=true)](https://github.com/maziyarpanahi)
 
 ![](https://github-profile-trophy.vercel.app/?username=maziyarpanahi&theme=monokai&no-frame=false&no-bg=false&margin-w=4)
-
-
-#### Visitors (since 29 March 2026)
-
-![Counter](https://count.getloli.com/get/@maziyarpanahi)
