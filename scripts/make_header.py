@@ -24,7 +24,7 @@ GOLD = "#f7ddb4"
 RULE = "#4a3c31"
 
 NAME = "Maziyar Panahi"
-ROLE = "Product Lead, Health AI  ·  Founder of OpenMed"
+ROLE = "Building on-device Medical AI"
 TAGLINE = "Open, sovereign, deployable medical AI"
 
 FONT = (
@@ -58,7 +58,7 @@ def build(data: dict) -> str:
     display = data["display"]
     stats = [
         (display["models"], "MODELS"),
-        (display["downloads_30d"], "DOWNLOADS / 30D"),
+        (display["downloads_all_time"], "DOWNLOADS"),
         (display["followers"], "FOLLOWERS"),
     ]
     # Three evenly spaced, centre-anchored columns - no box-fitting to get wrong
@@ -80,7 +80,7 @@ def build(data: dict) -> str:
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}"
      width="{WIDTH}" height="{HEIGHT}" role="img"
-     aria-label="{escape(NAME)} - {escape(ROLE)}. {escape(display['models'])} models, {escape(display['downloads_30d'])} downloads in the last 30 days, {escape(display['followers'])} followers on Hugging Face.">
+     aria-label="{escape(NAME)} - {escape(ROLE)}. {escape(display['models'])} models, {escape(display['downloads_all_time'])} downloads all time, {escape(display['followers'])} followers on Hugging Face.">
   <title>{escape(NAME)} - {escape(ROLE)}</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">

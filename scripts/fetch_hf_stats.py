@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Fetch Hugging Face Hub stats for a user and write them to metrics/hf.json.
+"""Fetch Hugging Face Hub stats and write them to metrics/hf.json.
+
+Figures are the COMBINED total across every account in ACCOUNTS - the personal
+account and the OpenMed org - because the models are authored by the same
+person. Downloads are reported all-time, not the API's rolling 30-day window.
 
 Standard library only - no pip install needed in CI.
 
 Usage:
-    python3 scripts/fetch_hf_stats.py [--user MaziyarPanahi] [--out metrics/hf.json]
+    python3 scripts/fetch_hf_stats.py [--out metrics/hf.json]
 
 Set HF_TOKEN in the environment for higher rate limits. Only public data is
 read, so the token is optional.
@@ -27,6 +31,15 @@ API = "https://huggingface.co/api"
 USER_AGENT = "maziyarpanahi-profile-bot/1.0 (+https://github.com/maziyarpanahi)"
 TOP_N = 6
 
+# (name, kind) - kind picks the overview endpoint: users/ or organizations/.
+ACCOUNTS = [
+    ("MaziyarPanahi", "users"),
+    ("OpenMed", "organizations"),
+]
+# Followers are a property of the person, not of the combined body of work, so
+# this one figure comes from the personal account alone.
+PRIMARY = "MaziyarPanahi"
+
 
 def human(n: int) -> str:
     """Compact form for big figures: 1234567 -> '1.2M'. Used for downloads."""
@@ -42,7 +55,7 @@ def human(n: int) -> str:
 
 
 def comma(n: int) -> str:
-    """Grouped form for countable things: 2816 -> '2,816'. Reads better than 2.8K."""
+    """Grouped form for countable things: 5087 -> '5,087'. Reads better than 5.1K."""
     return f"{n:,}"
 
 
@@ -57,7 +70,7 @@ def get(url: str, retries: int = 4):
     for attempt in range(retries):
         try:
             request = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(request, timeout=60) as response:
+            with urllib.request.urlopen(request, timeout=90) as response:
                 return json.loads(response.read().decode("utf-8")), response.headers
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as error:
             last_error = error
@@ -77,15 +90,22 @@ def next_page(headers) -> str | None:
     return match.group(1) if match else None
 
 
-def collect(kind: str, user: str) -> list[dict]:
-    """Walk every page of /api/{kind}?author={user} and return the raw records."""
-    url = f"{API}/{kind}?author={user}&limit=1000&sort=downloads&direction=-1"
+def collect(kind: str, author: str) -> list[dict]:
+    """Walk every page of /api/{kind}?author={author} and return the raw records.
+
+    expand[] is what makes downloadsAllTime available; without it the API only
+    returns the rolling 30-day `downloads` field.
+    """
+    url = (
+        f"{API}/{kind}?author={author}&limit=1000&sort=downloads&direction=-1"
+        "&expand[]=downloads&expand[]=downloadsAllTime&expand[]=likes"
+    )
     items: list[dict] = []
     page = 1
     while url:
         payload, headers = get(url)
         items.extend(payload)
-        print(f"  {kind}: page {page} -> {len(items)} total", file=sys.stderr)
+        print(f"  {author}/{kind}: page {page} -> {len(items)}", file=sys.stderr)
         url = next_page(headers)
         page += 1
     return items
@@ -93,57 +113,77 @@ def collect(kind: str, user: str) -> list[dict]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--user", default="MaziyarPanahi")
     parser.add_argument("--out", default="metrics/hf.json")
     args = parser.parse_args()
 
-    print(f"fetching Hugging Face stats for {args.user}", file=sys.stderr)
-    overview, _ = get(f"{API}/users/{args.user}/overview")
+    all_models: list[dict] = []
+    all_datasets: list[dict] = []
+    likes = 0
+    followers = 0
+    per_account = {}
 
-    models = collect("models", args.user)
-    datasets = collect("datasets", args.user)
+    for name, endpoint in ACCOUNTS:
+        print(f"fetching {name}", file=sys.stderr)
+        overview, _ = get(f"{API}/{endpoint}/{name}/overview")
+        models = collect("models", name)
+        datasets = collect("datasets", name)
 
-    model_downloads = sum(item.get("downloads") or 0 for item in models)
-    dataset_downloads = sum(item.get("downloads") or 0 for item in datasets)
-    downloads = model_downloads + dataset_downloads
+        all_models.extend(models)
+        all_datasets.extend(datasets)
+        likes += overview.get("numLikes") or 0
+        if name == PRIMARY:
+            followers = overview.get("numFollowers") or 0
+
+        per_account[name] = {
+            "models": len(models),
+            "datasets": len(datasets),
+            "downloads_all_time": sum(m.get("downloadsAllTime") or 0 for m in models)
+            + sum(d.get("downloadsAllTime") or 0 for d in datasets),
+            "downloads_30d": sum(m.get("downloads") or 0 for m in models)
+            + sum(d.get("downloads") or 0 for d in datasets),
+        }
+
+    downloads_all_time = sum(a["downloads_all_time"] for a in per_account.values())
+    downloads_30d = sum(a["downloads_30d"] for a in per_account.values())
 
     totals = {
-        "models": overview.get("numModels", len(models)),
-        "datasets": overview.get("numDatasets", len(datasets)),
-        "spaces": overview.get("numSpaces", 0),
-        "papers": overview.get("numPapers", 0),
-        "likes": overview.get("numLikes", 0),
-        "followers": overview.get("numFollowers", 0),
-        "model_downloads_30d": model_downloads,
-        "dataset_downloads_30d": dataset_downloads,
-        "downloads_30d": downloads,
+        "models": len(all_models),
+        "datasets": len(all_datasets),
+        "downloads_all_time": downloads_all_time,
+        "downloads_30d": downloads_30d,
+        "likes": likes,
+        "followers": followers,
     }
 
     top_models = [
         {
             "id": item["id"],
             "name": item["id"].split("/", 1)[-1],
+            "owner": item["id"].split("/", 1)[0],
             "url": f"https://huggingface.co/{item['id']}",
-            "downloads": item.get("downloads") or 0,
-            "downloads_display": human(item.get("downloads") or 0),
+            "downloads_all_time": item.get("downloadsAllTime") or 0,
+            "downloads_display": human(item.get("downloadsAllTime") or 0),
             "likes": item.get("likes") or 0,
         }
-        for item in sorted(models, key=lambda m: m.get("downloads") or 0, reverse=True)[:TOP_N]
+        for item in sorted(
+            all_models, key=lambda m: m.get("downloadsAllTime") or 0, reverse=True
+        )[:TOP_N]
     ]
 
     # Downloads get the compact treatment; everything countable keeps its digits.
-    compact = {"model_downloads_30d", "dataset_downloads_30d", "downloads_30d"}
+    compact = {"downloads_all_time", "downloads_30d"}
     display = {
         key: human(value) if key in compact else comma(value)
         for key, value in totals.items()
     }
 
     data = {
-        "user": args.user,
-        "profile_url": f"https://huggingface.co/{args.user}",
+        "accounts": [name for name, _ in ACCOUNTS],
+        "profile_url": f"https://huggingface.co/{PRIMARY}",
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "totals": totals,
         "display": display,
+        "per_account": per_account,
         "top_models": top_models,
     }
 
@@ -152,8 +192,8 @@ def main() -> int:
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(
-        f"wrote {out}: {totals['models']} models, {totals['datasets']} datasets, "
-        f"{human(downloads)} downloads/30d, {totals['followers']} followers",
+        f"wrote {out}: {comma(totals['models'])} models across "
+        f"{len(ACCOUNTS)} accounts, {human(downloads_all_time)} downloads all-time",
         file=sys.stderr,
     )
     return 0

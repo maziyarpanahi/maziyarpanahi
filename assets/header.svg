@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"
      width="1200" height="300" role="img"
-     aria-label="Maziyar Panahi - Product Lead, Health AI  ·  Founder of OpenMed. 2,816 models, 9.5M downloads in the last 30 days, 5,499 followers on Hugging Face.">
-  <title>Maziyar Panahi - Product Lead, Health AI  ·  Founder of OpenMed</title>
+     aria-label="Maziyar Panahi - Building on-device Medical AI. 5,087 models, 790M downloads all time, 5,499 followers on Hugging Face.">
+  <title>Maziyar Panahi - Building on-device Medical AI</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1d1714"/>
@@ -54,15 +54,15 @@
     <text class="name" x="60" y="118">Maziyar Panahi</text>
     <!-- clears the descender on the 'y' in Maziyar -->
     <rect x="62" y="146" width="54" height="3" rx="1.5" fill="#f7ddb4"/>
-    <text class="role" x="60" y="176">Product Lead, Health AI  ·  Founder of OpenMed</text>
+    <text class="role" x="60" y="176">Building on-device Medical AI</text>
     <text class="tag" x="60" y="212">Open, sovereign, deployable medical AI</text>
 
     <line x1="740" y1="72" x2="740" y2="172" stroke="#4a3c31" stroke-width="1"/>
     <g>
-    <text class="stat-value" x="812" y="132" text-anchor="middle">2,816</text>
+    <text class="stat-value" x="812" y="132" text-anchor="middle">5,087</text>
     <text class="stat-label" x="812" y="160" text-anchor="middle">MODELS</text>
-    <text class="stat-value" x="972" y="132" text-anchor="middle">9.5M</text>
-    <text class="stat-label" x="972" y="160" text-anchor="middle">DOWNLOADS / 30D</text>
+    <text class="stat-value" x="972" y="132" text-anchor="middle">790M</text>
+    <text class="stat-label" x="972" y="160" text-anchor="middle">DOWNLOADS</text>
     <text class="stat-value" x="1120" y="132" text-anchor="middle">5,499</text>
     <text class="stat-label" x="1120" y="160" text-anchor="middle">FOLLOWERS</text>
     </g>

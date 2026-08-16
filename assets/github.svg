@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 195"
+     width="500" height="195" role="img" aria-label="GitHub: 5,090 stars earned, 22,259 contributions in the last year.">
+  <title>GitHub: 5,090 stars earned, 22,259 contributions in the last year.</title>
+  <defs>
+    <linearGradient id="gh-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d1714"/>
+      <stop offset="100%" stop-color="#171210"/>
+    </linearGradient>
+    <clipPath id="gh-card">
+      <rect x="0" y="0" width="500" height="195" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <style><![CDATA[
+    .h { font: 700 13px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f7ddb4; letter-spacing: 2px; }
+    .v { font: 700 30px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f5ece1; }
+    .l { font: 600 11px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbbdad; letter-spacing: 1.3px; }
+    /* No animation anywhere: GitHub renders SVG-in-<img> as a static frame. */
+  ]]></style>
+
+  <g clip-path="url(#gh-card)">
+    <rect x="0" y="0" width="500" height="195" fill="url(#gh-bg)"/>
+    <text class="h" x="28" y="40">GITHUB</text>
+    <rect x="28" y="52" width="40" height="2" rx="1" fill="#f7ddb4"/>
+    <text class="v" x="28" y="96">5,090</text>
+    <text class="l" x="28" y="116">STARS EARNED</text>
+    <text class="v" x="268" y="96">22,259</text>
+    <text class="l" x="268" y="116">CONTRIBUTIONS · 1Y</text>
+    <text class="v" x="28" y="156">3,605</text>
+    <text class="l" x="28" y="176">COMMITS · 1Y</text>
+    <text class="v" x="268" y="156">1,061</text>
+    <text class="l" x="268" y="176">PULL REQUESTS · 1Y</text>
+  </g>
+  <rect x="0.5" y="0.5" width="499" height="194" rx="12"
+        fill="none" stroke="#4a3c31" stroke-width="1"/>
+</svg>

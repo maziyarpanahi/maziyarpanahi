@@ -1,77 +1,94 @@
 {
-  "user": "MaziyarPanahi",
+  "accounts": [
+    "MaziyarPanahi",
+    "OpenMed"
+  ],
   "profile_url": "https://huggingface.co/MaziyarPanahi",
-  "updated_at": "2026-08-16T18:09:41Z",
+  "updated_at": "2026-08-16T18:52:24Z",
   "totals": {
-    "models": 2816,
-    "datasets": 52,
-    "spaces": 8,
-    "papers": 3,
+    "models": 5087,
+    "datasets": 78,
+    "downloads_all_time": 790072780,
+    "downloads_30d": 46581239,
     "likes": 1551,
-    "followers": 5499,
-    "model_downloads_30d": 9506684,
-    "dataset_downloads_30d": 4838,
-    "downloads_30d": 9511522
+    "followers": 5499
   },
   "display": {
-    "models": "2,816",
-    "datasets": "52",
-    "spaces": "8",
-    "papers": "3",
+    "models": "5,087",
+    "datasets": "78",
+    "downloads_all_time": "790M",
+    "downloads_30d": "46.6M",
     "likes": "1,551",
-    "followers": "5,499",
-    "model_downloads_30d": "9.5M",
-    "dataset_downloads_30d": "4.8K",
-    "downloads_30d": "9.5M"
+    "followers": "5,499"
+  },
+  "per_account": {
+    "MaziyarPanahi": {
+      "models": 2816,
+      "datasets": 52,
+      "downloads_all_time": 392248199,
+      "downloads_30d": 9511522
+    },
+    "OpenMed": {
+      "models": 2271,
+      "datasets": 26,
+      "downloads_all_time": 397824581,
+      "downloads_30d": 37069717
+    }
   },
   "top_models": [
     {
-      "id": "MaziyarPanahi/Qwen3-4B-GGUF",
-      "name": "Qwen3-4B-GGUF",
-      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-4B-GGUF",
-      "downloads": 313364,
-      "downloads_display": "313K",
-      "likes": 7
+      "id": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "name": "Mistral-7B-Instruct-v0.3-GGUF",
+      "owner": "MaziyarPanahi",
+      "url": "https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "downloads_all_time": 14046901,
+      "downloads_display": "14M",
+      "likes": 147
     },
     {
-      "id": "MaziyarPanahi/Qwen3-0.6B-GGUF",
-      "name": "Qwen3-0.6B-GGUF",
-      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-0.6B-GGUF",
-      "downloads": 273250,
-      "downloads_display": "273K",
-      "likes": 13
+      "id": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "name": "Meta-Llama-3-8B-Instruct-GGUF",
+      "owner": "MaziyarPanahi",
+      "url": "https://huggingface.co/MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "downloads_all_time": 12716987,
+      "downloads_display": "12.7M",
+      "likes": 103
     },
     {
-      "id": "MaziyarPanahi/Qwen3-14B-GGUF",
-      "name": "Qwen3-14B-GGUF",
-      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-14B-GGUF",
-      "downloads": 269667,
-      "downloads_display": "270K",
-      "likes": 11
+      "id": "MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF",
+      "name": "Llama-3-8B-Instruct-32k-v0.1-GGUF",
+      "owner": "MaziyarPanahi",
+      "url": "https://huggingface.co/MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF",
+      "downloads_all_time": 12414273,
+      "downloads_display": "12.4M",
+      "likes": 59
     },
     {
-      "id": "MaziyarPanahi/Qwen3-1.7B-GGUF",
-      "name": "Qwen3-1.7B-GGUF",
-      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-1.7B-GGUF",
-      "downloads": 269249,
-      "downloads_display": "269K",
-      "likes": 10
+      "id": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
+      "name": "Phi-3.5-mini-instruct-GGUF",
+      "owner": "MaziyarPanahi",
+      "url": "https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
+      "downloads_all_time": 12098950,
+      "downloads_display": "12.1M",
+      "likes": 33
     },
     {
-      "id": "MaziyarPanahi/Qwen3-8B-GGUF",
-      "name": "Qwen3-8B-GGUF",
-      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-8B-GGUF",
-      "downloads": 266224,
-      "downloads_display": "266K",
-      "likes": 11
+      "id": "MaziyarPanahi/gemma-2-2b-it-GGUF",
+      "name": "gemma-2-2b-it-GGUF",
+      "owner": "MaziyarPanahi",
+      "url": "https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF",
+      "downloads_all_time": 12034599,
+      "downloads_display": "12M",
+      "likes": 14
     },
     {
-      "id": "MaziyarPanahi/Qwen3-30B-A3B-GGUF",
-      "name": "Qwen3-30B-A3B-GGUF",
-      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-30B-A3B-GGUF",
-      "downloads": 264234,
-      "downloads_display": "264K",
-      "likes": 5
+      "id": "MaziyarPanahi/WizardLM-2-7B-GGUF",
+      "name": "WizardLM-2-7B-GGUF",
+      "owner": "MaziyarPanahi",
+      "url": "https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF",
+      "downloads_all_time": 12015666,
+      "downloads_display": "12M",
+      "likes": 83
     }
   ]
 }

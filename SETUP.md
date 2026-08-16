@@ -9,11 +9,31 @@ which, so future-you edits the right file.
 | --- | --- | --- |
 | `README.md` | partly | Hand-written, except the block between the `HF-STATS` markers |
 | `assets/header.svg` | yes | The banner, rebuilt from the live numbers |
+| `assets/github.svg` | yes | The GitHub stats card |
 | `metrics/hf.json` | yes | Raw Hugging Face figures, refreshed daily |
+| `metrics/github.json` | yes | Raw GitHub figures |
 | `scripts/fetch_hf_stats.py` | no | Hugging Face Hub API → `metrics/hf.json` |
 | `scripts/make_header.py` | no | `metrics/hf.json` → `assets/header.svg` |
 | `scripts/render_readme.py` | no | `metrics/hf.json` → the README stats block |
-| `.github/workflows/profile.yml` | no | Runs the three scripts daily, plus the snake |
+| `scripts/make_github_card.py` | no | GitHub GraphQL API → `assets/github.svg` |
+| `.github/workflows/profile.yml` | no | Runs the four scripts daily, plus the snake |
+
+## What the numbers count
+
+Hugging Face figures are the **combined total across both accounts** —
+[MaziyarPanahi](https://huggingface.co/MaziyarPanahi) (2,816 models) and the
+[OpenMed](https://huggingface.co/OpenMed) org (2,271 models) — because the same
+person authored all of them. To add or drop an account, edit `ACCOUNTS` at the
+top of `scripts/fetch_hf_stats.py`; everything downstream follows.
+
+Downloads are reported **all time**, not the API's default rolling 30-day
+window. The Hub only exposes those two windows — there is no "last 12 months"
+figure to read — so all-time is the honest cumulative number. It needs
+`expand[]=downloadsAllTime` on the request; without that the API returns the
+30-day count only. Both are stored in `metrics/hf.json` if you want to switch.
+
+Followers come from the personal account alone, since that is a property of the
+person rather than of the combined body of work.
 
 Everything between these two markers in `README.md` is overwritten on every run —
 don't hand-edit it:
@@ -30,8 +50,12 @@ Anything outside the markers is yours and is never touched.
 The scripts are standard library only — no `pip install`, no `node_modules`.
 
 ```bash
-python3 scripts/fetch_hf_stats.py && python3 scripts/make_header.py && python3 scripts/render_readme.py
+export GITHUB_TOKEN=$(gh auth token)
+python3 scripts/fetch_hf_stats.py && python3 scripts/make_header.py && python3 scripts/render_readme.py && python3 scripts/make_github_card.py
 ```
+
+Only `make_github_card.py` needs the token, and only to read public data. In CI
+the workflow's built-in `GITHUB_TOKEN` covers it with no setup.
 
 To check whether the README is stale without rewriting it (exits non-zero if so):
 
@@ -87,12 +111,19 @@ is a service that can disappear without warning:
 
 | Image | Host |
 | --- | --- |
-| GitHub stats card | `github-readme-stats-sigma-five.vercel.app` |
+| Banner and GitHub stats card | ours, in `assets/` |
 | Contribution streak | `streak-stats.demolab.com` |
 | Rank in France | `user-badge.committers.top` |
 | Snake | our own `output` branch |
 
-The trophy row that used to sit here was dropped on 16 August 2026:
+The GitHub stats card was self-hosted on 16 August 2026. It used to come from
+`github-readme-stats-sigma-five.vercel.app`, which answers with a
+*"Maximum retries exceeded — please add an env variable called PAT_1"* image
+once its shared rate limit is hit. Note that this failure still returns a valid
+image, so a "does it load?" check passes while the card reads as an error to a
+human — worth remembering when checking the profile.
+
+The trophy row that used to sit here was dropped the same day:
 `github-profile-trophy.vercel.app` now answers `402 Payment required /
 DEPLOYMENT_DISABLED` to everyone, so it rendered as a broken image. To bring
 trophies back, deploy your own copy of

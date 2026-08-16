@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Maziyar Panahi — Product Lead, Health AI · Founder of OpenMed" width="100%">
+  <img src="./assets/header.svg" alt="Maziyar Panahi — Building on-device Medical AI" width="100%">
 </p>
 
 <p align="center">
@@ -26,22 +26,25 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 
 | 🤗 Hugging Face | |
 | --- | --- |
-| **Models published** | 2,816 |
-| **Datasets published** | 52 |
-| **Downloads (last 30 days)** | **9.5M** |
+| **Models published** | 5,087 |
+| **Datasets published** | 78 |
+| **Downloads, all time** | **790M** |
+| **Downloads, last 30 days** | 46.6M |
 | **Followers** | 5,499 |
 | **Likes received** | 1,551 |
 
-**Most downloaded this month**
+<sub>Combined across [MaziyarPanahi](https://huggingface.co/MaziyarPanahi) and [OpenMed](https://huggingface.co/OpenMed), all authored by me.</sub>
+
+**Most downloaded, all time**
 
 | Model | Downloads | Likes |
 | --- | ---: | ---: |
-| [Qwen3-4B-GGUF](https://huggingface.co/MaziyarPanahi/Qwen3-4B-GGUF) | 313K | 7 |
-| [Qwen3-0.6B-GGUF](https://huggingface.co/MaziyarPanahi/Qwen3-0.6B-GGUF) | 273K | 13 |
-| [Qwen3-14B-GGUF](https://huggingface.co/MaziyarPanahi/Qwen3-14B-GGUF) | 270K | 11 |
-| [Qwen3-1.7B-GGUF](https://huggingface.co/MaziyarPanahi/Qwen3-1.7B-GGUF) | 269K | 10 |
-| [Qwen3-8B-GGUF](https://huggingface.co/MaziyarPanahi/Qwen3-8B-GGUF) | 266K | 11 |
-| [Qwen3-30B-A3B-GGUF](https://huggingface.co/MaziyarPanahi/Qwen3-30B-A3B-GGUF) | 264K | 5 |
+| [MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF](https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF) | 14M | 147 |
+| [MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF](https://huggingface.co/MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF) | 12.7M | 103 |
+| [MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF](https://huggingface.co/MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF) | 12.4M | 59 |
+| [MaziyarPanahi/Phi-3.5-mini-instruct-GGUF](https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF) | 12.1M | 33 |
+| [MaziyarPanahi/gemma-2-2b-it-GGUF](https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF) | 12M | 14 |
+| [MaziyarPanahi/WizardLM-2-7B-GGUF](https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF) | 12M | 83 |
 
 <sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 16 August 2026</sub>
 <!-- HF-STATS:END -->
@@ -52,7 +55,7 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 
 <p align="center">
   <a href="https://github.com/maziyarpanahi">
-    <img height="170" alt="Maziyar's GitHub stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=maziyarpanahi&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&bg_color=161210&title_color=f7ddb4&text_color=d9cbbb&icon_color=f7ddb4">
+    <img height="170" alt="Maziyar's GitHub stats" src="./assets/github.svg">
   </a>
   <a href="https://github.com/maziyarpanahi">
     <img height="170" alt="Contribution streak" src="https://streak-stats.demolab.com/?user=maziyarpanahi&hide_border=true&background=161210&stroke=3a2f26&ring=f7ddb4&fire=f7ddb4&currStreakLabel=f7ddb4&sideLabels=d9cbbb&currStreakNum=f5ece1&sideNums=f5ece1&dates=8c7d6c">

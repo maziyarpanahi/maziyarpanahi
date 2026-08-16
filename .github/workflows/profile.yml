@@ -37,6 +37,11 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python3 scripts/fetch_hf_stats.py
 
+      - name: Rebuild the GitHub stats card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/make_github_card.py
+
       - name: Rebuild header and README
         run: |
           python3 scripts/make_header.py
@@ -50,8 +55,8 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/header.svg metrics/hf.json
-          git commit -m "chore: refresh Hugging Face stats"
+          git add README.md assets metrics
+          git commit -m "chore: refresh profile stats"
           git push
 
   snake:
