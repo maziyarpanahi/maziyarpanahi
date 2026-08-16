@@ -80,6 +80,29 @@ to a branch called `output`. The README points at that branch via raw.githubuser
 - **`HF_TOKEN` is optional.** Everything read is public; a token in
   *Settings → Secrets → Actions* only buys a higher rate limit.
 
+## Third-party images in the README
+
+The banner and the Hugging Face figures are ours. Four images are not, and each
+is a service that can disappear without warning:
+
+| Image | Host |
+| --- | --- |
+| GitHub stats card | `github-readme-stats-sigma-five.vercel.app` |
+| Contribution streak | `streak-stats.demolab.com` |
+| Rank in France | `user-badge.committers.top` |
+| Snake | our own `output` branch |
+
+The trophy row that used to sit here was dropped on 16 August 2026:
+`github-profile-trophy.vercel.app` now answers `402 Payment required /
+DEPLOYMENT_DISABLED` to everyone, so it rendered as a broken image. To bring
+trophies back, deploy your own copy of
+[github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) and
+point the URL at it — the same trick already in use for the stats card.
+
+If any of the others start showing as broken, check the URL with
+`curl -s -o /dev/null -w "%{http_code}" "<url>"` before assuming the README is
+at fault.
+
 ## Changing the banner
 
 Text, colours, and layout live at the top of `scripts/make_header.py` — `NAME`,

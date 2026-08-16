@@ -66,10 +66,6 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 </p>
 
 <p align="center">
-  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=maziyarpanahi&theme=gruvbox&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7">
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maziyarpanahi/maziyarpanahi/output/github-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maziyarpanahi/maziyarpanahi/output/github-snake.svg">
