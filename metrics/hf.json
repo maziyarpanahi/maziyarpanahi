@@ -1,0 +1,77 @@
+{
+  "user": "MaziyarPanahi",
+  "profile_url": "https://huggingface.co/MaziyarPanahi",
+  "updated_at": "2026-08-16T18:03:34Z",
+  "totals": {
+    "models": 2816,
+    "datasets": 52,
+    "spaces": 8,
+    "papers": 3,
+    "likes": 1551,
+    "followers": 5499,
+    "model_downloads_30d": 9506684,
+    "dataset_downloads_30d": 4838,
+    "downloads_30d": 9511522
+  },
+  "display": {
+    "models": "2,816",
+    "datasets": "52",
+    "spaces": "8",
+    "papers": "3",
+    "likes": "1,551",
+    "followers": "5,499",
+    "model_downloads_30d": "9.5M",
+    "dataset_downloads_30d": "4.8K",
+    "downloads_30d": "9.5M"
+  },
+  "top_models": [
+    {
+      "id": "MaziyarPanahi/Qwen3-4B-GGUF",
+      "name": "Qwen3-4B-GGUF",
+      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-4B-GGUF",
+      "downloads": 313364,
+      "downloads_display": "313K",
+      "likes": 7
+    },
+    {
+      "id": "MaziyarPanahi/Qwen3-0.6B-GGUF",
+      "name": "Qwen3-0.6B-GGUF",
+      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-0.6B-GGUF",
+      "downloads": 273250,
+      "downloads_display": "273K",
+      "likes": 13
+    },
+    {
+      "id": "MaziyarPanahi/Qwen3-14B-GGUF",
+      "name": "Qwen3-14B-GGUF",
+      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-14B-GGUF",
+      "downloads": 269667,
+      "downloads_display": "270K",
+      "likes": 11
+    },
+    {
+      "id": "MaziyarPanahi/Qwen3-1.7B-GGUF",
+      "name": "Qwen3-1.7B-GGUF",
+      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-1.7B-GGUF",
+      "downloads": 269249,
+      "downloads_display": "269K",
+      "likes": 10
+    },
+    {
+      "id": "MaziyarPanahi/Qwen3-8B-GGUF",
+      "name": "Qwen3-8B-GGUF",
+      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-8B-GGUF",
+      "downloads": 266224,
+      "downloads_display": "266K",
+      "likes": 11
+    },
+    {
+      "id": "MaziyarPanahi/Qwen3-30B-A3B-GGUF",
+      "name": "Qwen3-30B-A3B-GGUF",
+      "url": "https://huggingface.co/MaziyarPanahi/Qwen3-30B-A3B-GGUF",
+      "downloads": 264234,
+      "downloads_display": "264K",
+      "likes": 5
+    }
+  ]
+}

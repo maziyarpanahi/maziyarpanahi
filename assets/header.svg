@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"
+     width="1200" height="300" role="img"
+     aria-label="Maziyar Panahi - Product Lead, Health AI  ·  Founder of OpenMed. 2,816 models, 9.5M downloads in the last 30 days, 5,499 followers on Hugging Face.">
+  <title>Maziyar Panahi - Product Lead, Health AI  ·  Founder of OpenMed</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d1714"/>
+      <stop offset="55%" stop-color="#171210"/>
+      <stop offset="100%" stop-color="#221a14"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f7ddb4" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#f7ddb4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f7ddb4" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0" y="0" width="1200" height="300" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <style><![CDATA[
+    .name   { font: 700 54px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f5ece1; letter-spacing: -0.5px; }
+    .role   { font: 400 22px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbbdad; }
+    .tag    { font: 500 15px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f7ddb4; letter-spacing: 0.6px; }
+    .stat-value { font: 700 40px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f5ece1; }
+    .stat-label { font: 600 12px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbbdad; letter-spacing: 1.6px; }
+    .stamp  { font: 400 12px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbbdad; opacity: 0.65; }
+
+    /* Everything above is visible with no animation involved. Motion is only
+       ever additive: several renderers (GitHub's image proxy among them) draw
+       SVG-in-<img> as a static frame and never tick the animation clock, so
+       nothing may depend on a keyframe running to become visible. */
+    .ecg { animation: pulse 4s ease-in-out infinite; }
+
+    @keyframes pulse {
+      0%, 100% { stroke-opacity: 0.22; }
+      50%      { stroke-opacity: 0.40; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ecg { animation: none; }
+    }
+  ]]></style>
+
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="1200" height="300" fill="url(#bg)"/>
+
+    <!-- heartbeat trace across the lower third; band is y 238..278 -->
+    <path class="ecg" d="M -20 262 H 30 l 7 -24 l 8 40 l 7 -16 H 150 l 7 -24 l 8 40 l 7 -16 H 270 l 7 -24 l 8 40 l 7 -16 H 390 l 7 -24 l 8 40 l 7 -16 H 510 l 7 -24 l 8 40 l 7 -16 H 630 l 7 -24 l 8 40 l 7 -16 H 750 l 7 -24 l 8 40 l 7 -16 H 870 l 7 -24 l 8 40 l 7 -16 H 990 l 7 -24 l 8 40 l 7 -16 H 1110 l 7 -24 l 8 40 l 7 -16 H 1230 l 7 -24 l 8 40 l 7 -16 H 1220"
+          fill="none" stroke="#f7ddb4" stroke-opacity="0.28"
+          stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="0" y="297" width="1200" height="3" fill="url(#glow)"/>
+
+    <text class="name" x="60" y="118">Maziyar Panahi</text>
+    <!-- clears the descender on the 'y' in Maziyar -->
+    <rect x="62" y="146" width="54" height="3" rx="1.5" fill="#f7ddb4"/>
+    <text class="role" x="60" y="176">Product Lead, Health AI  ·  Founder of OpenMed</text>
+    <text class="tag" x="60" y="212">Open, sovereign, deployable medical AI</text>
+
+    <line x1="740" y1="72" x2="740" y2="172" stroke="#4a3c31" stroke-width="1"/>
+    <g>
+    <text class="stat-value" x="812" y="132" text-anchor="middle">2,816</text>
+    <text class="stat-label" x="812" y="160" text-anchor="middle">MODELS</text>
+    <text class="stat-value" x="972" y="132" text-anchor="middle">9.5M</text>
+    <text class="stat-label" x="972" y="160" text-anchor="middle">DOWNLOADS / 30D</text>
+    <text class="stat-value" x="1120" y="132" text-anchor="middle">5,499</text>
+    <text class="stat-label" x="1120" y="160" text-anchor="middle">FOLLOWERS</text>
+    </g>
+
+    <!-- tucked under the stats, above the heartbeat band -->
+    <text class="stamp" x="1140" y="212" text-anchor="end">Hugging Face · updated 16 Aug 2026</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="20"
+        fill="none" stroke="#4a3c31" stroke-width="1"/>
+</svg>
