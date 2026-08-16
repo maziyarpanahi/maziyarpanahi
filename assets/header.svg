@@ -23,7 +23,8 @@
     .role   { font: 400 22px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbbdad; }
     .tag    { font: 500 15px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f7ddb4; letter-spacing: 0.6px; }
     .stat-value { font: 700 40px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f5ece1; }
-    .stat-label { font: 600 12px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbbdad; letter-spacing: 1.6px; }
+    .stat-label { font: 600 11px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbbdad; letter-spacing: 1.2px; }
+    .section { font: 700 12px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f7ddb4; letter-spacing: 2.2px; }
     .stamp  { font: 400 12px 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #cbbdad; opacity: 0.65; }
 
     /* Everything above is visible with no animation involved. Motion is only
@@ -57,18 +58,19 @@
     <text class="role" x="60" y="176">Building on-device Medical AI</text>
     <text class="tag" x="60" y="212">Open, sovereign, deployable medical AI</text>
 
-    <line x1="740" y1="72" x2="740" y2="172" stroke="#4a3c31" stroke-width="1"/>
+    <line x1="740" y1="62" x2="740" y2="186" stroke="#4a3c31" stroke-width="1"/>
+    <text class="section" x="770" y="84">HUGGING FACE</text>
     <g>
-    <text class="stat-value" x="812" y="132" text-anchor="middle">5,087</text>
-    <text class="stat-label" x="812" y="160" text-anchor="middle">MODELS</text>
-    <text class="stat-value" x="972" y="132" text-anchor="middle">790M</text>
-    <text class="stat-label" x="972" y="160" text-anchor="middle">DOWNLOADS</text>
-    <text class="stat-value" x="1120" y="132" text-anchor="middle">5,499</text>
-    <text class="stat-label" x="1120" y="160" text-anchor="middle">FOLLOWERS</text>
+    <text class="stat-value" x="808" y="142" text-anchor="middle">5,087</text>
+    <text class="stat-label" x="808" y="170" text-anchor="middle">MODELS</text>
+    <text class="stat-value" x="968" y="142" text-anchor="middle">790M</text>
+    <text class="stat-label" x="968" y="170" text-anchor="middle">DOWNLOADS · ALL TIME</text>
+    <text class="stat-value" x="1108" y="142" text-anchor="middle">5,499</text>
+    <text class="stat-label" x="1108" y="170" text-anchor="middle">FOLLOWERS</text>
     </g>
 
     <!-- tucked under the stats, above the heartbeat band -->
-    <text class="stamp" x="1140" y="212" text-anchor="end">Hugging Face · updated 16 Aug 2026</text>
+    <text class="stamp" x="1140" y="212" text-anchor="end">updated 16 Aug 2026</text>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="299" rx="20"
         fill="none" stroke="#4a3c31" stroke-width="1"/>

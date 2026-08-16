@@ -58,12 +58,13 @@ def build(data: dict) -> str:
     display = data["display"]
     stats = [
         (display["models"], "MODELS"),
-        (display["downloads_all_time"], "DOWNLOADS"),
+        (display["downloads_all_time"], "DOWNLOADS · ALL TIME"),
         (display["followers"], "FOLLOWERS"),
     ]
     # Three evenly spaced, centre-anchored columns - no box-fitting to get wrong
-    # when font metrics differ between machines.
-    centres = [812, 972, 1120]
+    # when font metrics differ between machines. Shifted left of the earlier
+    # layout to keep the widest label, DOWNLOADS · ALL TIME, off its neighbour.
+    centres = [808, 968, 1108]
 
     updated = data.get("updated_at", "")
     try:
@@ -74,8 +75,8 @@ def build(data: dict) -> str:
     stat_markup = []
     for (value, label), cx in zip(stats, centres):
         stat_markup.append(
-            f'    <text class="stat-value" x="{cx}" y="132" text-anchor="middle">{escape(value)}</text>\n'
-            f'    <text class="stat-label" x="{cx}" y="160" text-anchor="middle">{escape(label)}</text>'
+            f'    <text class="stat-value" x="{cx}" y="142" text-anchor="middle">{escape(value)}</text>\n'
+            f'    <text class="stat-label" x="{cx}" y="170" text-anchor="middle">{escape(label)}</text>'
         )
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}"
@@ -103,7 +104,8 @@ def build(data: dict) -> str:
     .role   {{ font: 400 22px {FONT}; fill: {MUTED}; }}
     .tag    {{ font: 500 15px {FONT}; fill: {GOLD}; letter-spacing: 0.6px; }}
     .stat-value {{ font: 700 40px {FONT}; fill: {INK}; }}
-    .stat-label {{ font: 600 12px {FONT}; fill: {MUTED}; letter-spacing: 1.6px; }}
+    .stat-label {{ font: 600 11px {FONT}; fill: {MUTED}; letter-spacing: 1.2px; }}
+    .section {{ font: 700 12px {FONT}; fill: {GOLD}; letter-spacing: 2.2px; }}
     .stamp  {{ font: 400 12px {FONT}; fill: {MUTED}; opacity: 0.65; }}
 
     /* Everything above is visible with no animation involved. Motion is only
@@ -137,13 +139,14 @@ def build(data: dict) -> str:
     <text class="role" x="60" y="176">{escape(ROLE)}</text>
     <text class="tag" x="60" y="212">{escape(TAGLINE)}</text>
 
-    <line x1="740" y1="72" x2="740" y2="172" stroke="{RULE}" stroke-width="1"/>
+    <line x1="740" y1="62" x2="740" y2="186" stroke="{RULE}" stroke-width="1"/>
+    <text class="section" x="770" y="84">HUGGING FACE</text>
     <g>
 {chr(10).join(stat_markup)}
     </g>
 
     <!-- tucked under the stats, above the heartbeat band -->
-    <text class="stamp" x="{WIDTH - 60}" y="212" text-anchor="end">Hugging Face · updated {escape(stamp)}</text>
+    <text class="stamp" x="{WIDTH - 60}" y="212" text-anchor="end">updated {escape(stamp)}</text>
   </g>
   <rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{HEIGHT - 1}" rx="20"
         fill="none" stroke="{RULE}" stroke-width="1"/>

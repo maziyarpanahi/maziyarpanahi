@@ -55,10 +55,10 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 
 <p align="center">
   <a href="https://github.com/maziyarpanahi">
-    <img height="170" alt="Maziyar's GitHub stats" src="./assets/github.svg">
+    <img height="160" alt="Maziyar's GitHub stats" src="./assets/github.svg">
   </a>
   <a href="https://github.com/maziyarpanahi">
-    <img height="170" alt="Contribution streak" src="https://streak-stats.demolab.com/?user=maziyarpanahi&hide_border=true&background=161210&stroke=3a2f26&ring=f7ddb4&fire=f7ddb4&currStreakLabel=f7ddb4&sideLabels=d9cbbb&currStreakNum=f5ece1&sideNums=f5ece1&dates=8c7d6c">
+    <img height="160" alt="Contribution streak" src="https://streak-stats.demolab.com/?user=maziyarpanahi&hide_border=true&background=161210&stroke=3a2f26&ring=f7ddb4&fire=f7ddb4&currStreakLabel=f7ddb4&sideLabels=d9cbbb&currStreakNum=f5ece1&sideNums=f5ece1&dates=8c7d6c">
   </a>
 </p>
 
@@ -75,7 +75,3 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
     <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/maziyarpanahi/maziyarpanahi/output/github-snake.svg">
   </picture>
 </p>
-
----
-
-<sub>The banner and the Hugging Face figures above are generated daily by [`.github/workflows/profile.yml`](.github/workflows/profile.yml) — see [SETUP.md](SETUP.md).</sub>
