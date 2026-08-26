@@ -28,9 +28,9 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 | --- | --- |
 | **Models published** | 5,087 |
 | **Datasets published** | 78 |
-| **Downloads, all time** | **803M** |
-| **Downloads, last 30 days** | 47.7M |
-| **Followers** | 5,551 |
+| **Downloads, all time** | **804M** |
+| **Downloads, last 30 days** | 47.8M |
+| **Followers** | 5,555 |
 | **Likes received** | 1,553 |
 
 <sub>Combined across [MaziyarPanahi](https://huggingface.co/MaziyarPanahi) and [OpenMed](https://huggingface.co/OpenMed), all authored by me.</sub>
@@ -39,14 +39,14 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 
 | Model | Downloads | Likes |
 | --- | ---: | ---: |
-| [MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF](https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF) | 14.1M | 147 |
+| [MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF](https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF) | 14.1M | 148 |
 | [MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF](https://huggingface.co/MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF) | 12.8M | 103 |
 | [MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF](https://huggingface.co/MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF) | 12.5M | 59 |
-| [MaziyarPanahi/Phi-3.5-mini-instruct-GGUF](https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF) | 12.1M | 33 |
+| [MaziyarPanahi/Phi-3.5-mini-instruct-GGUF](https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF) | 12.2M | 33 |
 | [MaziyarPanahi/gemma-2-2b-it-GGUF](https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF) | 12.1M | 14 |
 | [MaziyarPanahi/WizardLM-2-7B-GGUF](https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF) | 12.1M | 83 |
 
-<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 25 August 2026</sub>
+<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 26 August 2026</sub>
 <!-- HF-STATS:END -->
 
 ---
