@@ -4,35 +4,35 @@
     "OpenMed"
   ],
   "profile_url": "https://huggingface.co/MaziyarPanahi",
-  "updated_at": "2026-08-27T15:13:55Z",
+  "updated_at": "2026-08-28T16:36:56Z",
   "totals": {
     "models": 5087,
     "datasets": 78,
     "downloads_all_time": 806814768,
-    "downloads_30d": 46564002,
+    "downloads_30d": 44823340,
     "likes": 1558,
-    "followers": 5565
+    "followers": 5568
   },
   "display": {
     "models": "5,087",
     "datasets": "78",
     "downloads_all_time": "807M",
-    "downloads_30d": "46.6M",
+    "downloads_30d": "44.8M",
     "likes": "1,558",
-    "followers": "5,565"
+    "followers": "5,568"
   },
   "per_account": {
     "MaziyarPanahi": {
       "models": 2816,
       "datasets": 52,
       "downloads_all_time": 395774367,
-      "downloads_30d": 10120861
+      "downloads_30d": 9675728
     },
     "OpenMed": {
       "models": 2271,
       "datasets": 26,
       "downloads_all_time": 411040401,
-      "downloads_30d": 36443141
+      "downloads_30d": 35147612
     }
   },
   "top_models": [
