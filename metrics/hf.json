@@ -4,35 +4,35 @@
     "OpenMed"
   ],
   "profile_url": "https://huggingface.co/MaziyarPanahi",
-  "updated_at": "2026-09-04T08:50:03Z",
+  "updated_at": "2026-09-05T08:20:22Z",
   "totals": {
     "models": 5087,
     "datasets": 78,
-    "downloads_all_time": 819987038,
-    "downloads_30d": 46972228,
+    "downloads_all_time": 821535602,
+    "downloads_30d": 46973059,
     "likes": 1559,
-    "followers": 5615
+    "followers": 5619
   },
   "display": {
     "models": "5,087",
     "datasets": "78",
-    "downloads_all_time": "820M",
+    "downloads_all_time": "822M",
     "downloads_30d": "47M",
     "likes": "1,559",
-    "followers": "5,615"
+    "followers": "5,619"
   },
   "per_account": {
     "MaziyarPanahi": {
       "models": 2816,
       "datasets": 52,
-      "downloads_all_time": 397966309,
-      "downloads_30d": 9828151
+      "downloads_all_time": 398211678,
+      "downloads_30d": 9665752
     },
     "OpenMed": {
       "models": 2271,
       "datasets": 26,
-      "downloads_all_time": 422020729,
-      "downloads_30d": 37144077
+      "downloads_all_time": 423323924,
+      "downloads_30d": 37307307
     }
   },
   "top_models": [
@@ -41,8 +41,8 @@
       "name": "Mistral-7B-Instruct-v0.3-GGUF",
       "owner": "MaziyarPanahi",
       "url": "https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
-      "downloads_all_time": 14147185,
-      "downloads_display": "14.1M",
+      "downloads_all_time": 14151899,
+      "downloads_display": "14.2M",
       "likes": 148
     },
     {
@@ -50,7 +50,7 @@
       "name": "Meta-Llama-3-8B-Instruct-GGUF",
       "owner": "MaziyarPanahi",
       "url": "https://huggingface.co/MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-      "downloads_all_time": 12816838,
+      "downloads_all_time": 12821258,
       "downloads_display": "12.8M",
       "likes": 103
     },
@@ -59,7 +59,7 @@
       "name": "Llama-3-8B-Instruct-32k-v0.1-GGUF",
       "owner": "MaziyarPanahi",
       "url": "https://huggingface.co/MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF",
-      "downloads_all_time": 12511488,
+      "downloads_all_time": 12515843,
       "downloads_display": "12.5M",
       "likes": 59
     },
@@ -68,7 +68,7 @@
       "name": "Phi-3.5-mini-instruct-GGUF",
       "owner": "MaziyarPanahi",
       "url": "https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
-      "downloads_all_time": 12197051,
+      "downloads_all_time": 12203105,
       "downloads_display": "12.2M",
       "likes": 34
     },
@@ -77,7 +77,7 @@
       "name": "gemma-2-2b-it-GGUF",
       "owner": "MaziyarPanahi",
       "url": "https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF",
-      "downloads_all_time": 12128223,
+      "downloads_all_time": 12132265,
       "downloads_display": "12.1M",
       "likes": 15
     },
@@ -86,7 +86,7 @@
       "name": "WizardLM-2-7B-GGUF",
       "owner": "MaziyarPanahi",
       "url": "https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF",
-      "downloads_all_time": 12109206,
+      "downloads_all_time": 12113293,
       "downloads_display": "12.1M",
       "likes": 83
     }
