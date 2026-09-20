@@ -28,9 +28,9 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 | --- | --- |
 | **Models published** | 5,085 |
 | **Datasets published** | 78 |
-| **Downloads, all time** | **845M** |
-| **Downloads, last 30 days** | 47.3M |
-| **Followers** | 5,709 |
+| **Downloads, all time** | **847M** |
+| **Downloads, last 30 days** | 47.2M |
+| **Followers** | 5,712 |
 | **Likes received** | 1,564 |
 
 <sub>Combined across [MaziyarPanahi](https://huggingface.co/MaziyarPanahi) and [OpenMed](https://huggingface.co/OpenMed), all authored by me.</sub>
@@ -46,7 +46,7 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 | [MaziyarPanahi/gemma-2-2b-it-GGUF](https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF) | 12.2M | 15 |
 | [MaziyarPanahi/WizardLM-2-7B-GGUF](https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF) | 12.2M | 83 |
 
-<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 19 September 2026</sub>
+<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 20 September 2026</sub>
 <!-- HF-STATS:END -->
 
 ---
