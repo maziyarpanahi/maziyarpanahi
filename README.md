@@ -28,9 +28,9 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 | --- | --- |
 | **Models published** | 5,094 |
 | **Datasets published** | 79 |
-| **Downloads, all time** | **866M** |
+| **Downloads, all time** | **868M** |
 | **Downloads, last 30 days** | 46.3M |
-| **Followers** | 5,809 |
+| **Followers** | 5,820 |
 | **Likes received** | 1,571 |
 
 <sub>Combined across [MaziyarPanahi](https://huggingface.co/MaziyarPanahi) and [OpenMed](https://huggingface.co/OpenMed), all authored by me.</sub>
@@ -44,9 +44,9 @@ I am building **OpenMed**. My mission is to leverage Europe's leading AI to buil
 | [MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF](https://huggingface.co/MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF) | 12.7M | 59 |
 | [MaziyarPanahi/Phi-3.5-mini-instruct-GGUF](https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF) | 12.4M | 34 |
 | [MaziyarPanahi/gemma-2-2b-it-GGUF](https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF) | 12.3M | 15 |
-| [MaziyarPanahi/WizardLM-2-7B-GGUF](https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF) | 12.2M | 83 |
+| [MaziyarPanahi/WizardLM-2-7B-GGUF](https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF) | 12.3M | 83 |
 
-<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 03 October 2026</sub>
+<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 04 October 2026</sub>
 <!-- HF-STATS:END -->
 
 ---
