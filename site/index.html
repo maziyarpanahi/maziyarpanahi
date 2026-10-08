@@ -4,21 +4,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Maziyar Panahi | Founder, OpenMed</title>
+  <title>Maziyar Panahi | Creator of OpenMed</title>
   <meta name="description"
-    content="Maziyar Panahi is the founder of OpenMed — open, on-device medical AI: 2,000+ Apache-2.0 clinical models that run in a hospital's own walls, on a Mac, or on an iPhone." />
+    content="Maziyar Panahi created OpenMed — open, on-device medical AI: 2,200+ Apache-2.0 clinical models that run in a hospital's own walls, on a Mac, or on an iPhone." />
   <meta name="theme-color" content="#f6efe6" />
-  <meta property="og:title" content="Maziyar Panahi | Founder, OpenMed" />
+  <meta property="og:title" content="Maziyar Panahi | Creator of OpenMed" />
   <meta property="og:description"
-    content="Founder of OpenMed. Open, on-device medical AI — 2,000+ Apache-2.0 models, 15M+ PyPI installs, from hospital servers to iPhones." />
+    content="Creator of OpenMed. Open, on-device medical AI — 2,200+ Apache-2.0 models, 18M+ PyPI installs, from hospital servers to iPhones." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://maziyarpanahi.com" />
   <meta property="og:image" content="https://maziyarpanahi.com/assets/og.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Maziyar Panahi | Founder, OpenMed" />
+  <meta name="twitter:title" content="Maziyar Panahi | Creator of OpenMed" />
   <meta name="twitter:image" content="https://maziyarpanahi.com/assets/og.png" />
   <meta name="twitter:description"
-    content="Founder of OpenMed. Open, on-device medical AI — 2,000+ Apache-2.0 models, 15M+ PyPI installs, from hospital servers to iPhones." />
+    content="Creator of OpenMed. Open, on-device medical AI — 2,200+ Apache-2.0 models, 18M+ PyPI installs, from hospital servers to iPhones." />
   <link rel="canonical" href="https://maziyarpanahi.com" />
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
@@ -35,22 +35,33 @@
   <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Maziyar Panahi",
-        "jobTitle": "Founder, OpenMed",
-        "url": "https://maziyarpanahi.com",
-        "sameAs": [
-          "https://github.com/MaziyarPanahi",
-          "https://huggingface.co/MaziyarPanahi",
-          "https://huggingface.co/OpenMed",
-          "https://www.linkedin.com/in/maziyarpanahi",
-          "https://x.com/MaziyarPanahi",
-          "https://scholar.google.com/citations?user=Uaeq3tMAAAAJ"
-        ],
-        "worksFor": [
-          { "@type": "Organization", "name": "OpenMed", "url": "https://openmed.life" },
-          { "@type": "Organization", "name": "Arcee AI" },
-          { "@type": "Organization", "name": "CNRS" }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://maziyarpanahi.com/#person",
+            "name": "Maziyar Panahi",
+            "url": "https://maziyarpanahi.com",
+            "description": "Creator of OpenMed, an open-source project for medical AI.",
+            "sameAs": [
+              "https://github.com/maziyarpanahi",
+              "https://huggingface.co/MaziyarPanahi",
+              "https://www.linkedin.com/in/maziyarpanahi",
+              "https://x.com/MaziyarPanahi",
+              "https://scholar.google.com/citations?user=Uaeq3tMAAAAJ"
+            ],
+            "worksFor": [
+              { "@type": "Organization", "name": "Arcee AI" },
+              { "@type": "Organization", "name": "CNRS" }
+            ]
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "name": "OpenMed",
+            "url": "https://openmed.life",
+            "codeRepository": "https://github.com/maziyarpanahi/openmed",
+            "license": "https://www.apache.org/licenses/LICENSE-2.0",
+            "creator": { "@id": "https://maziyarpanahi.com/#person" }
+          }
         ]
       }
     </script>
@@ -70,7 +81,7 @@
     </div>
 
     <header class="hero reveal">
-      <p class="eyebrow">Founder, OpenMed</p>
+      <p class="eyebrow">Creator of OpenMed</p>
       <h1>Maziyar Panahi</h1>
 
       <nav class="social-row" aria-label="Social profiles">
@@ -115,9 +126,9 @@
         Building open, on-device medical AI &mdash; OpenMed &middot; Arcee AI &middot; CNRS
       </p>
       <p class="hero-copy">
-        I build OpenMed: open-source medical AI that runs where the data lives &mdash; a hospital's own servers, a
-        Mac, an iPhone. 2,000+ Apache-2.0 models, 398M+ downloads on Hugging Face, and 15M+ installs on PyPI &mdash;
-        up from 4M just three months ago &mdash; with 50+ contributors and zero paid marketing.
+        I created OpenMed: open-source medical AI that runs where the data lives &mdash; a hospital's own servers, a
+        Mac, an iPhone. 2,200+ Apache-2.0 models, 450M+ downloads on Hugging Face, 18M+ installs on PyPI, and 85
+        contributors so far &mdash; with zero paid marketing.
       </p>
       <p class="hero-copy">
         Alongside OpenMed, I work in post-training at Arcee AI &mdash; developing open-weight models in the U.S. and
@@ -169,21 +180,21 @@
       <section class="reveal" id="openmed">
         <h2>OpenMed</h2>
         <p class="section-intro">
-          The open-source standard for clinical AI: 2,000+ Apache-2.0 models for de-identification, clinical NER,
-          coding, and QA &mdash; built to run on-prem, in your VPC, on a Mac, or on an iPhone. 398M+ downloads on
+          Open-source clinical AI: 2,200+ Apache-2.0 models for de-identification, clinical NER,
+          coding, and QA &mdash; built to run on-prem, in your VPC, on a Mac, or on an iPhone. 450M+ downloads on
           Hugging Face, 5,000+ GitHub stars, and the #1 most-referenced organization in Hugging Face's State of
           Open Source report (Spring 2026).
         </p>
         <ul class="initiative-list">
           <li><a href="https://github.com/maziyarpanahi/openmed" target="_blank" rel="noreferrer">openmed on
-              GitHub</a> &mdash; Python package, CLI, and MLX/Swift on-device engine; near-weekly releases, 50+
+              GitHub</a> &mdash; Python package, CLI, and MLX/Swift on-device engine; near-weekly releases, 85
             contributors</li>
           <li><a href="https://huggingface.co/OpenMed" target="_blank" rel="noreferrer">OpenMed on Hugging
               Face</a> &mdash; the model hub</li>
           <li><a href="https://huggingface.co/papers/2508.01630" target="_blank" rel="noreferrer">OpenMed NER</a>
-            &mdash; state-of-the-art on 12 public biomedical benchmarks</li>
+            &mdash; state of the art on 10 of 12 public biomedical NER datasets</li>
           <li><a href="https://github.com/maziyarpanahi/openmed/releases" target="_blank"
-              rel="noreferrer">OpenMed 2.0</a> &mdash; 56 languages, ~51 offline ID validators, and a k-anonymity
+              rel="noreferrer">OpenMed releases</a> &mdash; multilingual PII across 42 language routes (35 model-backed), ~51 offline ID validators, and a k-anonymity
             release-risk workflow that refuses to auto-sign expert determinations</li>
         </ul>
         <p class="section-intro">
@@ -195,8 +206,8 @@
       <section class="reveal" id="openmed-agent">
         <h2>OpenMed Agent</h2>
         <p class="section-intro">
-          The enterprise layer built on the open-source core &mdash; a terminal-native, inspectable clinical AI
-          agent that is privacy-first, reviewer-gated, and running on iPhone. Early access is open at
+          A clinical AI agent built on OpenMed's open models &mdash; terminal-native, inspectable,
+          privacy-first, reviewer-gated, and running on iPhone. Early access is open at
           <a href="https://agent.openmed.life" target="_blank" rel="noreferrer">agent.openmed.life</a>.
         </p>
         <ul class="initiative-list">
@@ -459,14 +470,13 @@
           cloud-architect years at Multimedia University and the University of Malaya.
         </p>
         <p>
-          Before OpenMed, I spent seven years at John Snow Labs leading Spark NLP &mdash; 150M+ downloads and
+          Before OpenMed, from 2019 to 2025, I was at John Snow Labs leading Spark NLP &mdash; 150M+ downloads and
           100,000+ pretrained models and pipelines. Since 2024 I've also been in post-training at Arcee AI: GRPO,
           RL environments, and the INTELLECT-1 and Trinity technical reports.
         </p>
         <p>
-          The mission hasn't moved: build the default open engine for every hospital, pharma company, and
-          public-health agency that needs a secure, sovereign medical-intelligence platform &mdash; and keep the
-          models, the training, and their limits out in the open. The longer version is on
+          What hasn't moved: medical AI should be open, auditable, and able to run inside a hospital's own walls
+          &mdash; with the models, the training, and their limits out in the open. The longer version is on
           <a href="https://www.linkedin.com/in/maziyarpanahi" target="_blank" rel="noreferrer">LinkedIn</a>.
         </p>
       </section>

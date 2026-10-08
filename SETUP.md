@@ -20,11 +20,13 @@ which, so future-you edits the right file.
 
 ## What the numbers count
 
-Hugging Face figures are the **combined total across both accounts** —
-[MaziyarPanahi](https://huggingface.co/MaziyarPanahi) (2,816 models) and the
-[OpenMed](https://huggingface.co/OpenMed) org (2,271 models) — because the same
-person authored all of them. To add or drop an account, edit `ACCOUNTS` at the
-top of `scripts/fetch_hf_stats.py`; everything downstream follows.
+Hugging Face figures are shown **per account, side by side** in the README —
+[MaziyarPanahi](https://huggingface.co/MaziyarPanahi) and the
+[OpenMed](https://huggingface.co/OpenMed) org — because OpenMed is an
+open-source project with its own contributors. The header banner still shows
+the combined totals, which `metrics/hf.json` keeps alongside the per-account
+figures. To add or drop an account, edit `ACCOUNTS` at the top of
+`scripts/fetch_hf_stats.py`; everything downstream follows.
 
 Downloads are reported **all time**, not the API's default rolling 30-day
 window. The Hub only exposes those two windows — there is no "last 12 months"

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Fetch Hugging Face Hub stats and write them to metrics/hf.json.
 
-Figures are the COMBINED total across every account in ACCOUNTS - the personal
-account and the OpenMed org - because the models are authored by the same
-person. Downloads are reported all-time, not the API's rolling 30-day window.
+Figures are kept per account in ACCOUNTS - the personal account and the
+OpenMed org - and also summed into combined totals for the header banner. The
+README shows the accounts side by side, because OpenMed is an open-source
+project with its own contributors. Downloads are reported all-time, not the
+API's rolling 30-day window.
 
 Standard library only - no pip install needed in CI.
 
