@@ -31,7 +31,7 @@ I created **[OpenMed](https://openmed.life/)**: open-source medical AI that runs
 | **Downloads, all time** | **408M** | **465M** |
 | **Downloads, last 30 days** | 8.6M | 37M |
 
-<sub>5,845 followers · 1,571 likes received across both · [OpenMed](https://openmed.life/) is an open-source project I created, built in the open with its contributors.</sub>
+<sub>5,851 followers · 1,574 likes received across both · [OpenMed](https://openmed.life/) is an open-source project I created, built in the open with its contributors.</sub>
 
 **Most downloaded, all time**
 
