@@ -14,7 +14,7 @@
 
 ### Hi! 👋
 
-I created **[OpenMed](https://openmed.life/)**: open-source medical AI that runs where the data lives — a hospital's own servers, a Mac, an iPhone. 2,200+ Apache-2.0 models, built in the open with 85 contributors so far.
+I created **[OpenMed](https://openmed.life/)**: open-source medical AI that runs where the data lives — locally, on a hospital's own servers or on edge devices like smartphones. 2,200+ Apache-2.0 models, built in the open with 85 contributors so far.
 
 - ⚕️ **Creator** of [OpenMed](https://openmed.life/), open and sovereign medical AI
 - 🔬 **Also** — AI & HPC infrastructure at ISC-PIF (CNRS), Paris
