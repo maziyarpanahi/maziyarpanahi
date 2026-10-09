@@ -2,9 +2,9 @@
 
 > Creator of OpenMed, an open-source project for medical AI that runs where the data lives. Based in Paris.
 
-Facts as of 8 October 2026:
+Facts as of 9 October 2026:
 
-- Created OpenMed in July 2025. It is an Apache-2.0 open-source project: 2,200+ models for clinical entity recognition and PII de-identification, 450M+ downloads on Hugging Face, 18M+ installs on PyPI, and 85 contributors on GitHub.
+- Created OpenMed in July 2025. It is an Apache-2.0 open-source project: 2,200+ models for clinical entity recognition and PII de-identification, 460M+ downloads on Hugging Face, 18M+ installs on PyPI, and 85 contributors on GitHub.
 - OpenMed NER paper (arXiv 2508.01630, August 2025): state of the art on 10 of 12 public biomedical NER datasets.
 - Runs AI & HPC infrastructure at CNRS (ISC-PIF), Paris, since 2014. Post-training of open-weight models at Arcee AI since 2024.
 - Led Spark NLP at John Snow Labs, 2019–2025.
