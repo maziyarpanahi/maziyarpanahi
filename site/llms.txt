@@ -8,6 +8,7 @@ Facts as of 9 October 2026:
 - OpenMed NER paper (arXiv 2508.01630, August 2025): state of the art on 10 of 12 public biomedical NER datasets.
 - Runs AI & HPC infrastructure at CNRS (ISC-PIF), Paris, since 2014. Post-training of open-weight models at Arcee AI since 2024.
 - Led Spark NLP at John Snow Labs, 2019–2025.
+- His standard for any health model, his own included: show what ran, what it can do, where it failed, and what it still cannot claim.
 
 ## Links
 
