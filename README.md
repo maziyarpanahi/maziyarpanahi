@@ -27,11 +27,11 @@ I created **[OpenMed](https://openmed.life/)**: open-source medical AI that runs
 | 🤗 Hugging Face | [MaziyarPanahi](https://huggingface.co/MaziyarPanahi) | [OpenMed](https://huggingface.co/OpenMed) |
 | --- | ---: | ---: |
 | **Models published** | 2,818 | 2,282 |
-| **Datasets published** | 55 | 26 |
-| **Downloads, all time** | **410M** | **500M** |
-| **Downloads, last 30 days** | 2.3M | 36.3M |
+| **Datasets published** | 60 | 26 |
+| **Downloads, all time** | **410M** | **502M** |
+| **Downloads, last 30 days** | 2.2M | 36.4M |
 
-<sub>6,057 followers · 1,596 likes received across both · [OpenMed](https://openmed.life/) is an open-source project I created, built in the open with its contributors.</sub>
+<sub>6,062 followers · 1,601 likes received across both · [OpenMed](https://openmed.life/) is an open-source project I created, built in the open with its contributors.</sub>
 
 **Most downloaded, all time**
 
@@ -44,7 +44,7 @@ I created **[OpenMed](https://openmed.life/)**: open-source medical AI that runs
 | [MaziyarPanahi/gemma-2-2b-it-GGUF](https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF) | 12.3M | 15 |
 | [MaziyarPanahi/WizardLM-2-7B-GGUF](https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF) | 12.3M | 83 |
 
-<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 05 November 2026</sub>
+<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 06 November 2026</sub>
 <!-- HF-STATS:END -->
 
 ---
