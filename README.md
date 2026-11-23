@@ -26,25 +26,25 @@ I created **[OpenMed](https://openmed.life/)**: open-source medical AI that runs
 
 | 🤗 Hugging Face | [MaziyarPanahi](https://huggingface.co/MaziyarPanahi) | [OpenMed](https://huggingface.co/OpenMed) |
 | --- | ---: | ---: |
-| **Models published** | 2,820 | 2,299 |
+| **Models published** | 2,820 | 2,301 |
 | **Datasets published** | 61 | 26 |
-| **Downloads, all time** | **414M** | **521M** |
-| **Downloads, last 30 days** | 3.6M | 36.5M |
+| **Downloads, all time** | **414M** | **522M** |
+| **Downloads, last 30 days** | 3.6M | 36.6M |
 
-<sub>6,153 followers · 1,613 likes received across both · [OpenMed](https://openmed.life/) is an open-source project I created, built in the open with its contributors.</sub>
+<sub>6,155 followers · 1,613 likes received across both · [OpenMed](https://openmed.life/) is an open-source project I created, built in the open with its contributors.</sub>
 
 **Most downloaded, all time**
 
 | Model | Downloads | Likes |
 | --- | ---: | ---: |
 | [MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF](https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF) | 14.4M | 147 |
-| [MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF](https://huggingface.co/MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF) | 13.1M | 104 |
+| [MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF](https://huggingface.co/MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF) | 13.1M | 105 |
 | [MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF](https://huggingface.co/MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF) | 12.8M | 59 |
 | [MaziyarPanahi/Phi-3.5-mini-instruct-GGUF](https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF) | 12.5M | 34 |
 | [MaziyarPanahi/gemma-2-2b-it-GGUF](https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF) | 12.4M | 15 |
 | [MaziyarPanahi/WizardLM-2-7B-GGUF](https://huggingface.co/MaziyarPanahi/WizardLM-2-7B-GGUF) | 12.3M | 83 |
 
-<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 22 November 2026</sub>
+<sub>Live from the <a href="https://huggingface.co/MaziyarPanahi">Hugging Face Hub API</a> · refreshed 23 November 2026</sub>
 <!-- HF-STATS:END -->
 
 ---
